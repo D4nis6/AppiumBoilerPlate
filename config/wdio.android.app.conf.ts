@@ -26,10 +26,10 @@ export const config: WebdriverIO.Config = {
 
             //
             // NOTE: Change this name according to the Emulator you have created on your local machine
-            'appium:deviceName': 'Pixel_7_Pro_Android_14_API_34',
+            // 'appium:deviceName': 'Pixel_7_Pro_Android_14_API_34',
             //
             // NOTE: Change this version according to the Emulator you have created on your local machine
-            'appium:platformVersion': '14.0',
+            // 'appium:platformVersion': '14.0',
             'appium:orientation': 'PORTRAIT',
             'appium:automationName': 'UiAutomator2',
             // The path to the app
@@ -38,9 +38,9 @@ export const config: WebdriverIO.Config = {
                 'apps',
                 //
                 // NOTE: Change this name according to the app version you downloaded
-                'android.wdio.native.app.v1.0.8.apk',
+                '../app/daniexporoute.apk',
             ),
-            'appium:appWaitActivity': 'com.wdiodemoapp.MainActivity',
+            'appium:appWaitActivity': 'com.daniexporouter.MainActivity',
             'appium:newCommandTimeout': 240,
         },
     ],
